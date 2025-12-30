@@ -1,0 +1,113 @@
+/* PAGE WRAPPER */
+.profile-page-wrapper {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 24px;
+  padding: 24px;
+  max-width: 1280px;
+  margin: 0 auto;
+  color: #c9d1d9;
+}
+
+/* LEFT PROFILE SECTION */
+.user-profile-section {
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* PROFILE IMAGE */
+.profile-image {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #30363d, #161b22);
+  border: 1px solid #30363d;
+}
+
+/* USERNAME */
+.user-profile-section .name h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* FOLLOW BUTTON */
+.follow-btn {
+  width: 100%;
+  padding: 6px 12px;
+  margin: 12px 0;
+  background: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #c9d1d9;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.follow-btn:hover {
+  background: #30363d;
+}
+
+/* FOLLOWERS */
+.follower {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #8b949e;
+  margin-top: 12px;
+}
+
+/* RIGHT SECTION (HEATMAP + CONTENT) */
+.heat-map-section {
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* UNDERLINE NAV FIX */
+.UnderlineNav {
+  background: #0d1117 !important;
+  border-bottom: 1px solid #30363d;
+  margin-bottom: 24px;
+  padding-left: 24px;
+}
+
+/* LOGOUT BUTTON */
+#logout {
+  background: #da3633;
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#logout:hover {
+  background: #f85149;
+}
+
+.profile-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #30363d;
+  margin: 0 auto 16px;
+  display: block;
+}
+
+.follow-btn.following {
+  background: #238636;
+  border-color: #238636;
+  color: #ffffff;
+}
+
+.follow-btn.following:hover {
+  background: #2ea043;
+}

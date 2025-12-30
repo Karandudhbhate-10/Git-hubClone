@@ -1,0 +1,64 @@
+.gh-navbar {
+  height: 56px;
+  background: #010409;
+  border-bottom: 1px solid #30363d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+/* LEFT */
+.gh-leftn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.gh-logo img {
+  width: 32px;
+  height: 32px;
+}
+
+.gh-search {
+  width: 230px;
+  padding: 6px 10px;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #c9d1d9;
+  font-size: 14px;
+}
+
+.gh-search::placeholder {
+  color: #8b949e;
+}
+
+/* RIGHT */
+.gh-rightn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.gh-btn {
+  background: #238636;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.gh-btn:hover {
+  background: #2ea043;
+}
+
+.gh-avatar img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #30363d;
+  cursor: pointer;
+}
