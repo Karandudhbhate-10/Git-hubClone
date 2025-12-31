@@ -18,7 +18,7 @@ const Login = () => {
     try {
       setLoading(true);
 
-      axios.post(`${import.meta.env.VITE_API_URL}/login`, {
+      axios.post("https://git-hubclone.onrender.com/login", {
         email,
         password,
       });
