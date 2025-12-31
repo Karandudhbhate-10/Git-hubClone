@@ -24,7 +24,7 @@ const Signup = () => {
     try {
       setLoading(true);
 
-      axios.post(`${import.meta.env.VITE_API_URL}/signup`, {
+      axios.post("https://git-hubclone.onrender.com/signup", {
         email,
         username,
         password,
